@@ -1,9 +1,8 @@
-package hello.hellospring.repository;
+package hello.helloSpring.repository;
 
-import hello.hellospring.domain.Member;
+import hello.helloSpring.domain.Member;
 import org.springframework.stereotype.Repository;
 
-import java.sql.Array;
 import java.util.*;
 
 @Repository
