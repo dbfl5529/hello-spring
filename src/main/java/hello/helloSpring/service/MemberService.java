@@ -1,8 +1,7 @@
-package hello.hellospring.service;
+package hello.helloSpring.service;
 
-import hello.hellospring.domain.Member;
-import hello.hellospring.repository.MemberRepository;
-import hello.hellospring.repository.MemoryMemberRepository;
+import hello.helloSpring.domain.Member;
+import hello.helloSpring.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -48,6 +47,7 @@ public class MemberService {
         return memberRepository.findAll();
     }
 
+    // Test
     public Optional<Member> findOne(Long memberId) {
         return memberRepository.findById(memberId);
     }
